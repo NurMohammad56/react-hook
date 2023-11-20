@@ -22,7 +22,14 @@ const App = () => {
     }));
   };
   */
-
+  /*const [city, setCity] = useState([
+    "Rangpur",
+    "Dhaka",
+    "Kurigram",
+    "Ulipur",
+    "Mirpur",
+  ]);
+  */
   return (
     <Fragment>
       {/* 1. //Count Number 
@@ -63,7 +70,12 @@ const App = () => {
         id=""
       /> */}
 
-      <h1></h1>
+      {/* 3. Array
+      <ul>
+        {city.map((item, i) => {
+          return <li>{item}</li>;
+        })}
+      </ul> */}
     </Fragment>
   );
 };
